@@ -31,7 +31,7 @@ app.get('/server', (req, res)=> {
         console.log(__dirname)
           res.render("mansi.ejs", {"name":"mansi"})
          
-        });
+        
 
 
 app.listen(5000, function(req,res){
